@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imraan Muctar | Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <header>
+        <img src="{{ url_for('static', filename='image.jpeg') }}" alt="Imraan Muctar" class="profile-img">
+        <h1>Imraan Muctar</h1>
+        <p class="subtitle">4th Semester Student | Developer & Researcher</p>
+        <div class="languages">
+            <span class="lang-badge">English</span>
+            <span class="lang-badge">French</span>
+            <span class="lang-badge">Arabic</span>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I am currently in my fourth semester, passionate about technology, development, and continuous learning. My multidisciplinary linguistic background in English, French, and Arabic allows me to approach problems from diverse perspectives. I designed this portfolio to be extensible so I can document my future projects and research efforts over the next two years.</p>
+        </section>
+
+        <!-- Academic Achievements & Research -->
+        <section id="academic">
+            <h2>Academic Achievements & Research</h2>
+            <div class="achievements-grid">
+                <div class="card">
+                    <h3>Ongoing Research</h3>
+                    <p><em>Add brief details about any current academic research or papers you are working on here.</em></p>
+                </div>
+                <div class="card">
+                    <h3>Academic Milestones</h3>
+                    <p><em>Successfully completed core computer science coursework through the fourth semester with a focus on [Insert Subject].</em></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Previous & Ongoing Projects</h2>
+            <div class="projects-grid">
+                <div class="card">
+                    <h3>Project Title 1</h3>
+                    <p>A brief description of a project you have completed. Explain the technologies used and what problem it solved.</p>
+                </div>
+                <div class="card">
+                    <h3>Project Title 2</h3>
+                    <p>Details about an ongoing project. Highlighting your current efforts and future goals for the application.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <ul class="contact-info">
+                <li><strong>Email:</strong> <a href="mailto:imraanmuctar1@gmail.com">imraanmuctar1@gmail.com</a></li>
+                <li><strong>WhatsApp:</strong> <a href="https://wa.me/8801804173157">+8801804173157</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Imraan Muctar. All Rights Reserved.</p>
+        
+        <!-- AI Disclosure (Assignment Requirement) -->
+        <div class="ai-disclosure">
+            <strong>AI Tools Disclosure:</strong> The structural foundation and styling of this portfolio website were developed with the assistance of an AI LLM (Gemini). <br>
+            <em>Prompt History Summary:</em> "Make a very nice modern portfolio for me using Python Flask. Included identity details, languages, contact info, and referenced assignment requirements for layout, projects, and academic sections."
+        </div>
+    </footer>
+
+</body>
+</html>
